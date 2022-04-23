@@ -18,9 +18,9 @@
 
 1. Clone o repositório
   * Antes de clonar este repositório, tenha certeza de que você **NÃO** está em um diretório que já é um repositório git.
-  * `git clone git@github.com:tryber/sd-014-b-project-playground-functions.git`
+  * `git clone git@github.com:LucasAccurcio/playground-functions.git`
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-014-b-project-playground-functions`
+    * `cd playground-functions`
 
 2. Instale as dependências e inicialize o projeto
   * Instale as dependências:
