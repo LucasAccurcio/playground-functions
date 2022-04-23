@@ -1,6 +1,5 @@
 // Desafio 1
 function compareTrue(value1, value2) {
-  // seu código aqui
   if (value1 === true && value2 === true) {
     return true;
   } else {
@@ -10,14 +9,12 @@ function compareTrue(value1, value2) {
 
 // Desafio 2
 function calcArea(base, height) {
-  // seu código aqui
   let calc = (base * height) / 2;
   return calc;
 }
 
 // Desafio 3
 function splitSentence(sentence) {
-  // seu código aqui
   let word = '';
   let arrayWord = [];
   for (let index = 0; index <= sentence.length; index += 1) {
@@ -33,7 +30,6 @@ function splitSentence(sentence) {
 
 // Desafio 4
 function concatName(arrayNames) {
-  // seu código aqui
   let tamanhoArray = arrayNames.length - 1;
   let stringNames = arrayNames[tamanhoArray];
   stringNames += ', ' + arrayNames[0];
@@ -42,7 +38,6 @@ function concatName(arrayNames) {
 
 // Desafio 5
 function footballPoints(wins, ties) {
-  // seu código aqui
   let points = 0;
   points = (3 * wins) + ties;
   return points;
@@ -50,7 +45,6 @@ function footballPoints(wins, ties) {
 
 // Desafio 6
 function highestCount(arrayNumbers) {
-  // seu código aqui
   let numeros = arrayNumbers;
   // encontra o maior número
   let maiorNumero = numeros[0];
@@ -71,7 +65,6 @@ function highestCount(arrayNumbers) {
 
 // Desafio 7
 function catAndMouse(mouse, cat1, cat2) {
-  // seu código aqui
   let pcat1 = 0;
   let pcat2 = 0;
   if (mouse > cat1) {
@@ -90,7 +83,6 @@ function catAndMouse(mouse, cat1, cat2) {
 
 // Desafio 8
 function fizzBuzz(array) {
-  // seu código aqui
   let arrayOfString = [];
   for (let key in array) {
     if (array[key] % 3 === 0 && array[key] % 5 === 0) {
@@ -108,7 +100,6 @@ function fizzBuzz(array) {
 
 // Desafio 9
 function encode(string) {
-  // seu código aqui
   let newString = '';
   for (let index of string) {
     if (index === 'a') {
@@ -129,7 +120,6 @@ function encode(string) {
 }
 
 function decode(string) {
-  // seu código aqui
   let newString = '';
   for (let index of string) {
     if (index === '1') {
@@ -161,3 +151,7 @@ module.exports = {
   highestCount,
   splitSentence,
 };
+
+// Exemplo para rodar a função
+// Conta quantas vezes o maior número aparece
+console.log(highestCount([5, 4, 3, 10, 5, 10, 5]));

@@ -1,6 +1,5 @@
 // Desafio 10
 function techList(arrayTech, stringName) {
-  // seu código aqui
   arrayTech.sort();
   let arrayInfo = [];
   if (arrayTech.length === 0) {
@@ -21,7 +20,6 @@ function techList(arrayTech, stringName) {
 
 // Desafio 11
 function generatePhoneNumber(telephoneNumber) {
-  // seu código aqui
   let retorno = '';
   //Confere se o número do telefone é válido
   if (telephoneNumber.length !== 11) {
@@ -50,9 +48,9 @@ function generatePhoneNumber(telephoneNumber) {
   }
   return retorno;
 }
+
 // Desafio 12
 function triangleCheck(a, b, c) {
-  // seu código aqui
   var absolutoA = Math.abs(a);
   var absolutoB = Math.abs(b);
   var absolutoC = Math.abs(c);
@@ -68,7 +66,6 @@ function triangleCheck(a, b, c) {
 
 // Desafio 13
 function hydrate(string) {
-  // seu código aqui
   let numbers = string.match(/\d+/g).map(Number);
   //fórmula pesquisada no site (https://stackoverflow.com/questions/1623221/how-to-find-a-number-in-a-string-using-javascript/30160994)
   let soma = 0;
